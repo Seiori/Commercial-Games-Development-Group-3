@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 200053412662897166}
   - component: {fileID: 4065734624355161624}
+  - component: {fileID: 3742628900403201514}
   m_Layer: 0
   m_Name: Dropper
   m_TagString: Untagged
@@ -46,6 +47,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 47.605686, y: 25.173996, z: 46.57366}
   m_Center: {x: -2.5105047, y: 14.0787115, z: -3.5464978}
+--- !u!114 &3742628900403201514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523290323710547010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b654a594b6f21b244826b47795062a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vertices: []
 --- !u!1 &2321488872852725553
 GameObject:
   m_ObjectHideFlags: 0

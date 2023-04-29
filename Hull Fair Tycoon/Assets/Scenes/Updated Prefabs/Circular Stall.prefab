@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4612978536354045411}
   - component: {fileID: -2853588521926375918}
+  - component: {fileID: 454342171256012075}
   m_Layer: 0
   m_Name: Circular Stall
   m_TagString: Untagged
@@ -46,6 +47,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10.388365, y: 8.388235, z: 10.630524}
   m_Center: {x: 0.10198474, y: 4.212652, z: 0.13790935}
+--- !u!114 &454342171256012075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841190832281951098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b654a594b6f21b244826b47795062a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vertices: []
 --- !u!1 &3494666445488558506
 GameObject:
   m_ObjectHideFlags: 0

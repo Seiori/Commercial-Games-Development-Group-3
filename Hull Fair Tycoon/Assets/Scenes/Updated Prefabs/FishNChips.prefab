@@ -62,6 +62,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3231426809333929685}
   - component: {fileID: 6276502293125289724}
+  - component: {fileID: 6641117573423834390}
   m_Layer: 0
   m_Name: FishNChips
   m_TagString: Untagged
@@ -98,6 +99,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 11.033996, y: 11.04622, z: 14.321285}
   m_Center: {x: 0.51699656, y: 4.208144, z: 0.6325046}
+--- !u!114 &6641117573423834390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6651299552963670221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b654a594b6f21b244826b47795062a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vertices: []
 --- !u!1 &7058426155715226646
 GameObject:
   m_ObjectHideFlags: 0

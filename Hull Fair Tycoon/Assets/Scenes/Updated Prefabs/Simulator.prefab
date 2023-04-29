@@ -43,6 +43,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7177237469382985510}
   - component: {fileID: 4831129021017394123}
+  - component: {fileID: -1236187261234416200}
   m_Layer: 0
   m_Name: Simulator
   m_TagString: Untagged
@@ -79,6 +80,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 55.00792, y: 11.202851, z: 29.633299}
   m_Center: {x: 0.23230234, y: 5.4826694, z: 0.5242506}
+--- !u!114 &-1236187261234416200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3283844047927094181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b654a594b6f21b244826b47795062a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vertices: []
 --- !u!1 &8786033998348333476
 GameObject:
   m_ObjectHideFlags: 0

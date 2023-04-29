@@ -47858,6 +47858,7 @@ GameObject:
   m_Component:
   - component: {fileID: 616105291450883921}
   - component: {fileID: 5138494237556979238}
+  - component: {fileID: -1943804821570832243}
   m_Layer: 0
   m_Name: MerryGoRound
   m_TagString: Untagged
@@ -47894,6 +47895,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 29.855179, y: 10.314803, z: 30.384825}
   m_Center: {x: -1.0368395, y: 4.8426085, z: 2.2664332}
+--- !u!114 &-1943804821570832243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8255019922694986773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b654a594b6f21b244826b47795062a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vertices: []
 --- !u!1 &8435738612206998851
 GameObject:
   m_ObjectHideFlags: 0

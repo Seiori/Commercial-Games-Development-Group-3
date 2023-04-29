@@ -29,10 +29,10 @@ public class BuildingSystem : MonoBehaviour
     {
         // Hard Coded for Testing, Replace this in Future with Building Menu Call
         // Suggestion: Event Handler Which Passes Prefab Building of Choice to Here.
-        //if (Input.GetKeyDown(KeyCode.A))
-       // {
-       //     InitializeWithObject(Building);
-       // }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            InitializeWithObject(Building);
+        }
 
         if (objectToPlace)
         {

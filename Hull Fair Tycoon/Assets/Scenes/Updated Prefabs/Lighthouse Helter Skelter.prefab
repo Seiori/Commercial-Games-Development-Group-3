@@ -19043,6 +19043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9104382423175746179}
   - component: {fileID: 2181313813047361482}
+  - component: {fileID: 7989719715205575098}
   m_Layer: 0
   m_Name: Lighthouse Helter Skelter
   m_TagString: Untagged
@@ -19079,6 +19080,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 7.0874534, z: 10}
   m_Center: {x: 0, y: 3.5045497, z: 0}
+--- !u!114 &7989719715205575098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3467397100296133454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b654a594b6f21b244826b47795062a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vertices: []
 --- !u!1001 &1235896673724625950
 PrefabInstance:
   m_ObjectHideFlags: 0
