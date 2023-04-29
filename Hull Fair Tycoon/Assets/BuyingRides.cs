@@ -67,15 +67,24 @@ public class BuyingRides : MonoBehaviour
 		if( mPlayerFinance - mDodgemsPrice > 0)
 		{
 			mPlayerFinance -= mDodgemsPrice;
-			CloseStoreAndBuild();
+			CloseStoreAndBuild(mDodgems);
 		}
 
 		
 	}
+    public void BuyDropper()
+    {
+        if (mPlayerFinance - mDropperPrice > 0)
+        {
+            mPlayerFinance -= mDropperPrice;
+            CloseStoreAndBuild(mDropper);
+        }
 
-	public void CloseStoreAndBuild()
+
+    }
+    public void CloseStoreAndBuild(GameObject building)
 	{
 		UIController.CloseBuildingShopUI();
-		buildingSystem.Building = mDodgems;
+		buildingSystem.Building = building;
 	}
 }

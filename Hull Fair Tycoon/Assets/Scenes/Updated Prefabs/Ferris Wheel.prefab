@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6407214002403528993}
   - component: {fileID: 6683466532752118110}
   - component: {fileID: -5957588179640181851}
+  - component: {fileID: -1381214808281540391}
   m_Layer: 0
   m_Name: Ferris Wheel
   m_TagString: Untagged
@@ -60,6 +61,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Vertices: []
+--- !u!114 &-1381214808281540391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2995351783229852390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd21da03cf0ab440b526959b8b1d497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7967490139595673580
 GameObject:
   m_ObjectHideFlags: 0

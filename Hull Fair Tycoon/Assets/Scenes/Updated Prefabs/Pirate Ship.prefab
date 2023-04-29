@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3467641980186747419}
   - component: {fileID: 4994777608276407195}
   - component: {fileID: -6480606306480112941}
+  - component: {fileID: 1976524901880015603}
   m_Layer: 0
   m_Name: Pirate Ship
   m_TagString: Untagged
@@ -60,6 +61,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Vertices: []
+--- !u!114 &1976524901880015603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387022467296402315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd21da03cf0ab440b526959b8b1d497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4935431083588404922
 GameObject:
   m_ObjectHideFlags: 0

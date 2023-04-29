@@ -63,6 +63,7 @@ GameObject:
   - component: {fileID: 3231426809333929685}
   - component: {fileID: 6276502293125289724}
   - component: {fileID: 6641117573423834390}
+  - component: {fileID: -968696869846621483}
   m_Layer: 0
   m_Name: FishNChips
   m_TagString: Untagged
@@ -112,6 +113,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Vertices: []
+--- !u!114 &-968696869846621483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6651299552963670221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd21da03cf0ab440b526959b8b1d497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7058426155715226646
 GameObject:
   m_ObjectHideFlags: 0

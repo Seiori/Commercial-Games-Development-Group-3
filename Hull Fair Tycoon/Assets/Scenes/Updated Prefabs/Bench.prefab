@@ -1512,6 +1512,7 @@ GameObject:
   - component: {fileID: 9188399556451820623}
   - component: {fileID: 8093158452898304542}
   - component: {fileID: 3587072955294439550}
+  - component: {fileID: 168659600662909347}
   m_Layer: 0
   m_Name: Bench
   m_TagString: Untagged
@@ -1561,3 +1562,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Vertices: []
+--- !u!114 &168659600662909347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6457710124305308374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd21da03cf0ab440b526959b8b1d497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

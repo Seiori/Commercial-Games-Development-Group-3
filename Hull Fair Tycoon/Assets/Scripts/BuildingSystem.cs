@@ -17,6 +17,7 @@ public class BuildingSystem : MonoBehaviour
 
     private PlaceableObject objectToPlace;
 
+    public AudioSource error;
     #region Unity Methods
 
     private void Awake()
@@ -47,6 +48,7 @@ public class BuildingSystem : MonoBehaviour
                 }
                 else
                 {
+                    error.Play();
                     Vector3Int start = gridLayout.WorldToCell(objectToPlace.GetStartPosition());
                     MainTilemap.BoxFill(start, redTile, start.x, start.y, start.x + objectToPlace.Size.x, start.y + objectToPlace.Size.y);
                 }

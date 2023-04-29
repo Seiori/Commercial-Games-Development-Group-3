@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6513748602733010722}
   - component: {fileID: 6939998736588062792}
   - component: {fileID: -8145749451426195625}
+  - component: {fileID: -5964346028405644018}
   m_Layer: 0
   m_Name: Drinks Stall
   m_TagString: Untagged
@@ -60,6 +61,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Vertices: []
+--- !u!114 &-5964346028405644018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2157408413161892377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd21da03cf0ab440b526959b8b1d497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5945041044880798267
 GameObject:
   m_ObjectHideFlags: 0

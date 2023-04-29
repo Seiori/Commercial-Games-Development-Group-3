@@ -3901,6 +3901,8 @@ GameObject:
   - component: {fileID: 4265813452166491021}
   - component: {fileID: 7242647005048324859}
   - component: {fileID: -1397592893968756446}
+  - component: {fileID: 3827970319536858345}
+  - component: {fileID: 927254489455864477}
   m_Layer: 0
   m_Name: HookADuck
   m_TagString: Untagged
@@ -3950,6 +3952,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Vertices: []
+--- !u!114 &3827970319536858345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2645092863774299245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd21da03cf0ab440b526959b8b1d497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &927254489455864477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2645092863774299245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd21da03cf0ab440b526959b8b1d497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1278639142553746598
 PrefabInstance:
   m_ObjectHideFlags: 0

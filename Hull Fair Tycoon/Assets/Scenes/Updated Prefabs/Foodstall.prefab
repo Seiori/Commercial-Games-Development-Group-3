@@ -1369,6 +1369,7 @@ GameObject:
   - component: {fileID: 2771068525557356526}
   - component: {fileID: 7552768732940701348}
   - component: {fileID: 3030137195746073759}
+  - component: {fileID: -3060834311093185474}
   m_Layer: 0
   m_Name: Foodstall
   m_TagString: Untagged
@@ -1418,6 +1419,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Vertices: []
+--- !u!114 &-3060834311093185474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7331402698356004841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd21da03cf0ab440b526959b8b1d497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8061978786112773902
 GameObject:
   m_ObjectHideFlags: 0

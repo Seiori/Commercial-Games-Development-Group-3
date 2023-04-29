@@ -2824,6 +2824,7 @@ GameObject:
   - component: {fileID: 6060141191173039987}
   - component: {fileID: 299203290392625836}
   - component: {fileID: 2543419836759322491}
+  - component: {fileID: -8161789263462979422}
   m_Layer: 0
   m_Name: Dodgems
   m_TagString: Untagged
@@ -2873,6 +2874,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Vertices: []
+--- !u!114 &-8161789263462979422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5732184102561797342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bd21da03cf0ab440b526959b8b1d497, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7896167013651801341
 GameObject:
   m_ObjectHideFlags: 0
