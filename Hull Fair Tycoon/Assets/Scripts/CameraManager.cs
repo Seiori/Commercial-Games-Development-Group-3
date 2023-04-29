@@ -27,7 +27,7 @@ public class CameraManager : MonoBehaviour
     {
         isScrolling = context.started || context.performed;
         deltaZ = context.ReadValue<float>();
-        Debug.Log(deltaZ);
+       // Debug.Log(deltaZ);
     }
 
     private void LateUpdate()
