@@ -15,7 +15,7 @@ public class BuildingSystem : MonoBehaviour
 
     public GameObject Building;
 
-    private PlaceableObject objectToPlace;
+    public PlaceableObject objectToPlace;
 
     public AudioSource error;
     #region Unity Methods

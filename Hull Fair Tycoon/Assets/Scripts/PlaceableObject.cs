@@ -29,7 +29,7 @@ public class PlaceableObject : MonoBehaviour
             vertices[i] = BuildingSystem.current.gridLayout.WorldToCell(worldPos);
         }
 
-        Size = new Vector3Int(Mathf.Abs((vertices[0] - vertices[1]).x), Mathf.Abs((vertices[0] - vertices[3]).y), 1);
+        Size = new Vector3Int(Mathf.Abs((vertices[0] - vertices[1]).x)-1, Mathf.Abs((vertices[0] - vertices[3]).y)-1, Mathf.Abs((vertices[0] - vertices[2]).z));
     }
 
     public Vector3 GetStartPosition()
