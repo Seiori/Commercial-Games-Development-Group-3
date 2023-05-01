@@ -370,6 +370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MerryGoRound
       objectReference: {fileID: 0}
+    - target: {fileID: 1360217091308371249, guid: 79208aa68c20bd745933aaced14539df, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79208aa68c20bd745933aaced14539df, type: 3}
 --- !u!1001 &8690044159059237458
