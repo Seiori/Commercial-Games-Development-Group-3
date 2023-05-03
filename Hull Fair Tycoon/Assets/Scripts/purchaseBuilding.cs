@@ -10,7 +10,7 @@ public class purchaseBuilding : MonoBehaviour
     public GameObject bankAccount;
     public GameObject building;
     public GameObject costerror;
-    public AudioSource error;
+    public AudioSource error, purchase;
     public int buildingCost;
     public TextMeshProUGUI costText;
 
@@ -28,6 +28,7 @@ public class purchaseBuilding : MonoBehaviour
         }
         else
         {
+            purchase.Play();
             BuildingSystem.Instantiate(building);
             bankAccount.GetComponent<BankAccount>().ProcedeWithTransaction(buildingCost);
         }

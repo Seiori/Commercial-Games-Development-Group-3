@@ -17,7 +17,7 @@ public class BuildingSystem : MonoBehaviour
 
     public PlaceableObject objectToPlace;
 
-    public AudioSource error;
+    public AudioSource error, construction;
     #region Unity Methods
 
     private void Awake()
@@ -28,13 +28,7 @@ public class BuildingSystem : MonoBehaviour
 
     private void Update()
     {
-        // Hard Coded for Testing, Replace this in Future with Building Menu Call
-        // Suggestion: Event Handler Which Passes Prefab Building of Choice to Here.
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            InitializeWithObject(Building);
-        }
-
+        
         if (objectToPlace)
         {
             // User Confirms Placement
@@ -42,7 +36,7 @@ public class BuildingSystem : MonoBehaviour
             {
                 if (CanBePlaced(objectToPlace))
                 {
-                    objectToPlace.Place();
+                    objectToPlace.Place(); construction.Play();
                     Vector3Int start = gridLayout.WorldToCell(objectToPlace.GetStartPosition());
                     MainTilemap.BoxFill(start, whiteTile, start.x, start.y, start.x + objectToPlace.Size.x, start.y + objectToPlace.Size.y);
                 }

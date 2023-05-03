@@ -9,7 +9,7 @@ public class TimeManager : MonoBehaviour
 
     public float dayDuration = 30f;
 
-    float totalTime = 88;
+    float totalTime = 131;
     float currentTime = 0;
 
     // Update is called once per frame

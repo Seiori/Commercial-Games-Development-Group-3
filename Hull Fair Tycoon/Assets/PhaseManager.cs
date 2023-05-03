@@ -10,7 +10,7 @@ public class PhaseManager : MonoBehaviour
     public DigitalClock dc;
     public bool alert = true, end = false;
     public AudioSource prep;
-    public AudioSource open;
+    public AudioSource open, crowd;
     // Start is called before the first frame update
     void Start()
     {        
@@ -22,7 +22,7 @@ public class PhaseManager : MonoBehaviour
     {
         if(dc.phase == false && alert == true)
         {
-            prep.Pause(); open.Play();
+            prep.Pause(); open.Play(); crowd.Play();
             RenderSettings.skybox = skyMaterial;
             tilemap.GetComponent<TilemapRenderer>().material = openPhase;
             popup.SetActive(true); button1.SetActive(false); button2.SetActive(false);
