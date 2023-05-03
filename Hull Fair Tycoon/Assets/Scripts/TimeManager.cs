@@ -9,14 +9,14 @@ public class TimeManager : MonoBehaviour
 
     public float dayDuration = 30f;
 
-    float totalTime = 0;
+    float totalTime = 88;
     float currentTime = 0;
 
     // Update is called once per frame
     void Update()
     {
         totalTime += Time.deltaTime;
-        currentTime = totalTime % dayDuration;
+        currentTime = totalTime % dayDuration ;
     }
 
     public float GetHour()
@@ -31,6 +31,7 @@ public class TimeManager : MonoBehaviour
 
     public string Clock24Hour()
     {
+        Debug.Log(currentTime);
         return Mathf.FloorToInt(GetHour()).ToString("00") + ":" + Mathf.FloorToInt(GetMinute()).ToString("00");
     }
 }

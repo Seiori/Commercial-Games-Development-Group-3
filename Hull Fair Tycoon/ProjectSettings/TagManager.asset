@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - BuildingSystem
+  - DigitalClock
+  - BankAcoount
+  - TimeManager
   layers:
   - Default
   - TransparentFX

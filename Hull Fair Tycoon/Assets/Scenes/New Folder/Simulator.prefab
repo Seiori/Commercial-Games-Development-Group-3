@@ -91,6 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animated: {fileID: 4922060759497459961}
   nonanimated: {fileID: 6849801253710213919}
+  dc: {fileID: 0}
 --- !u!1001 &7411995031811278037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -101,6 +102,10 @@ PrefabInstance:
     - target: {fileID: 4166906922395400138, guid: 487f7fae118ae264c94c42a4f0194a96, type: 3}
       propertyPath: m_Name
       value: Simulator
+      objectReference: {fileID: 0}
+    - target: {fileID: 4166906922395400138, guid: 487f7fae118ae264c94c42a4f0194a96, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4166906922395400139, guid: 487f7fae118ae264c94c42a4f0194a96, type: 3}
       propertyPath: m_RootOrder

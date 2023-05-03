@@ -6,19 +6,21 @@ public class switchVariants : MonoBehaviour
 {
     public GameObject animated;
     public GameObject nonanimated;
+    public DigitalClock dc;
     // Start is called before the first frame update
     void Start()
     {
-        
+        dc = GameObject.FindGameObjectWithTag("DigitalClock").GetComponent<DigitalClock>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.G)) 
+        if (dc.phase == false)
         {
-            animated.SetActive(!animated.activeSelf);
-            nonanimated.SetActive(!nonanimated.activeSelf);
+            animated.SetActive(true);
+            nonanimated.SetActive(false);
         }
+        
     }
 }
